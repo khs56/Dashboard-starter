@@ -1,0 +1,10 @@
+.MainDash {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  padding: 0px 0px 0px 20px;
+  padding-top: 3rem;
+  flex: 1;
+}
