@@ -43,4 +43,5 @@
   background-color: var(--glass);
   overflow: hidden;
   flex-direction: row;
+  gap: 10px;
 }
