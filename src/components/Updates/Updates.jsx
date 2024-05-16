@@ -9,15 +9,11 @@ const Updates = () => {
           <div className="update">
             <img src={update.img} alt="" />
             <div className="notification">
-              <div>
+              <div style={{ marginBottom: '0.5rem' }}>
                 <span>{update.name}</span>
                 <span>{update.notification}</span>
               </div>
-            </div>
-            <div>
-              <span>
-                {update.time}
-              </span>
+              <span>{update.time}</span>
             </div>
           </div>
         )
