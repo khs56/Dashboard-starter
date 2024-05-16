@@ -1,4 +1,5 @@
 import React from 'react'
+import Updates from '../Updates/Updates'
 import './RightSide.css'
 
 const RightSide = () => {
@@ -6,10 +7,10 @@ const RightSide = () => {
     <div>
       <div>
         <h3>Updates</h3>
-        {/* <Updates /> */}
+        <Updates />
       </div>
       <div>
-        <h3>Customer Review</h3>
+        <h3>Customer Reviews</h3>
       </div>
     </div>
   )
